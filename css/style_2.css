@@ -1,0 +1,90 @@
+*{
+  margin: auto;
+}
+
+body{
+  background-color: #ececec;
+  display: block;
+}
+
+header{
+  width: 75%;
+  background-color: #385170;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  height: 100%;
+  border-radius: 15px;  
+  text-align: center;
+}
+
+nav{
+  background-color: #407088;
+  border-radius: 15px 15px 0 0;
+  height: 80px;
+}
+nav h1{
+  padding-top: 10px;
+  letter-spacing: 2.5px;
+  text-shadow:2px 3px black;
+  color: #ffffff;
+}
+
+nav ul{
+  margin-left: -50px;
+}
+
+
+.menu{
+  list-style-type: none;
+  border: 2px solid rgba(29, 28, 28, 0.74);
+  border-radius: 25px;
+  display: inline-block;
+  margin: 5px 0 0 0 ;
+  padding: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+li:hover{
+  background-color: rgba(49, 49, 49, 0.144);
+  border-radius: 25px;
+  
+}
+
+
+div .tecnolgs{
+  margin-top: 35px;
+  position: relative;
+  bottom: -10px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.imgs p{
+  width: 70%;
+  position: relative;
+  bottom: -15px;
+  text-align: justify;
+  margin-bottom: 35px;
+  color: wheat;
+}
+
+.butons{
+  display: inline-block;
+}
+
+.butons img{
+  width: 50px;
+  height: 80px;
+  
+}
+
+
+
