@@ -15,19 +15,17 @@ menu.style.textAlign = "center"
 let btn = document.getElementById("btns");
 btn.style.display = "none";
 
-let picture = document.querySelectorAll(".tecnolgs");
-picture[0].style.display = "none";
-picture[1].style.display = "none";
-picture[2].style.display = "none";
-picture[3].style.display = "none";
 
-let textOfPicture =document.querySelectorAll(".textAbout");
-textOfPicture[0].style.display = "none";
-textOfPicture[1].style.display = "none";
-textOfPicture[2].style.display = "none";
-textOfPicture[3].style.display = "none";
+const picture = document.querySelectorAll('.tecnolgs');
+for(var i = 0; i < picture.length ; i++) {
+  picture[i].style.display = "none";
+}
 
 
+const textOfPicture = document.querySelectorAll('.textAbout');
+for(var i = 0; i < textOfPicture.length ; i++) {
+  textOfPicture[i].style.display = "none";
+}
 
 var ImgOfHTML = document.getElementById("agni");
 ImgOfHTML.style.display = "inherit";
