@@ -4,7 +4,6 @@
 
 body{
   background-color: #ececec;
-  display: block;
 }
 
 header{
@@ -66,6 +65,9 @@ div .tecnolgs{
   height: 100px;
 }
 
+#textDisplay , #agni , #pass{
+  display:none;
+}
 
 .imgs p{
   width: 70%;
