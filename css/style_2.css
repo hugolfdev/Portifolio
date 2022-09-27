@@ -1,92 +1,92 @@
 *{
-  margin: auto;
-}
-
-body{
-  background-color: #ececec;
+    margin: auto;padding: auto;
 }
 
 header{
-  width: 75%;
-  background-color: #385170;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  height: 100%;
-  border-radius: 15px;  
-  text-align: center;
+    background-color: #222831;
 }
 
-nav{
-  background-color: #407088;
-  border-radius: 15px 15px 0 0;
-  height: 80px;
+.title{
+    color: #ff5722;
+    text-shadow: 1px 1px 22px #eeeeee;
+    font-size: 45px;
+    margin-left: 35px;
+    display: flex;
 }
-nav h1{
-  padding-top: 10px;
-  letter-spacing: 2.5px;
-  text-shadow:2px 3px black;
-  color: #ffffff;
-}
-
-nav ul{
-  margin-left: -50px;
-}
-
 
 .menu{
-  list-style-type: none;
-  border: 2px solid rgba(29, 28, 28, 0.74);
-  border-radius: 25px;
-  display: inline-block;
-  margin: 5px 0 0 0 ;
-  padding: 5px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  
+    text-align: right;
+    padding: 5px;
+    margin: -30px 10px 10px 0 ;
 }
 
-.menu a{
-  color: white;
-  text-decoration: none;
+.menu_nav{
+    color: #677b97;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin: 5px 0 0 0 ;
 }
 
-li:hover{
-  background-color: rgba(49, 49, 49, 0.144);
-  border-radius: 25px;
-  
+section{
+    background-color: #eeeeee;
+    width: 45%;
+    border-radius: 15px;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px ;
+    margin-bottom: 10px;
+}
+
+.hbld{
+    padding: 5px;
+    margin: 10px;
+}
+
+.hbld img{
+    width: 150px;
+}
+.hbld p{
+    letter-spacing: 1.8px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.hblds{
+    display: none;
+}
+
+/* editar botão no javascript */
+.btns{
+    display: none;
+}
+
+.refrence{
+    width: 100%;
+    height: 100%;
+    background-color: #222831;
+    color: #eeeeee;
+}
+
+.title-2{
+    
+    color: #751d08;
+    /* text-shadow: 1px 1px 2px #eeeeee; */
+    font-size: 25px;
+    margin-left: 5px;
+    display: flex;
 }
 
 
-div .tecnolgs{
-  margin-top: 35px;
-  position: relative;
-  bottom: -10px;
-  width: 100px;
-  height: 100px;
+
+.refrence a:link{
+    color: rgb(165, 165, 165);
 }
 
-#textDisplay , #agni , #pass{
-  display:none;
+.refrence a:visited{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
 }
-
-.imgs p{
-  width: 70%;
-  position: relative;
-  bottom: -15px;
-  text-align: justify;
-  margin-bottom: 35px;
-  color: wheat;
-}
-
-.butons{
-  display: inline-block;
-}
-
-.butons img{
-  width: 50px;
-  height: 80px;
-  
-}
-
-
-
